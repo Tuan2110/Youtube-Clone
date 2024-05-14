@@ -1,0 +1,16 @@
+<div class="card pointer" routerLink="/video-detail/{{video.id}}">
+    <div class="card-image">
+        <img [src]="video.thumbnailUrl" alt="Video Thumbnail">
+    </div>
+    <div class="card-content">
+        <div class="video-info-container">
+            <img [src]="user?.picture" mat-card-avatar class="example-header-image"/> 
+            <span class="card-title">{{video.title}}</span>
+        </div>
+    <p class="card-channel">{{user?.fullName}}</p>
+        <div class="card-stats">
+            <span>{{video.viewCount}} views</span>
+            <span>{{video.createdAt | timeago}}</span>
+        </div>
+    </div>
+</div>

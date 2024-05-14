@@ -1,0 +1,57 @@
+.card {
+  font-family: 'Arial', sans-serif;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.pointer {
+  cursor: pointer;
+}
+.example-header-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.video-info-container {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.example-header-image {
+  margin-right: 10px; /* Để tạo khoảng cách giữa hình ảnh và tiêu đề */
+}
+
+.card-image img {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.card-title {
+  
+  font-size: 16px;
+  font-weight: 550;
+  color: #333;
+}
+
+.card-channel {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-stats {
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}

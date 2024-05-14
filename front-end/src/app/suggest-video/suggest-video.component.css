@@ -1,0 +1,25 @@
+.card {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+.card-title{
+  font-size: 16px;
+  margin: 0;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.card-image img{
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.card-content{
+  /* height = image */
+  height: 100px
+}
+.card-channel{
+  margin-left: 5px;
+  font-size: 13px;
+  color: rgb(122, 117, 117);
+}

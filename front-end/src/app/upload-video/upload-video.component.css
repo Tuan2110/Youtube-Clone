@@ -1,0 +1,31 @@
+.center {
+    text-align: center;
+}
+button{
+    background-color: #673AB7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.upload-table {
+    margin-bottom: 20px;
+}
+table {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.upload-name-style {
+    font-size: 18px;
+}
+button:hover {
+    background-color: #512DA8;
+}

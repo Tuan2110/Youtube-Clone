@@ -1,0 +1,15 @@
+<div class="comment-card">
+    <div class="avatar-container">
+        <img matCardAvatar [src]="user?.picture" class="avatar"/>
+    </div>
+    <div class="comment-details">
+        <a class="author-name" routerLink="">{{ user?.fullName }}</a>
+        <div class="comment-text">{{ comment.content }}</div>
+        <div class="comment-time">{{ comment.createdAt | timeago }}</div>
+    </div>
+    <div class="comment-actions">
+        <button *ngIf="loginUserId===comment.authorId" (click)="deleteComment(comment.id)" mat-icon-button>
+            <mat-icon>delete</mat-icon>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="card" fxLayout="row" (click)="viewDetail(video.id)">
+    <div class="card-image" fxFlex="40%">
+        <img [src]="video.thumbnailUrl" alt="Video Thumbnail">
+    </div>
+    <div class="card-content" fxFlex="60%">
+        <p class="card-title">{{video.title}}</p>
+        <span class="card-channel">{{user?.fullName}}</span>
+        <div class="card-channel">
+            <span>{{video.viewCount}} views - </span>
+            <span>{{ video.createdAt | timeago }}</span>
+        </div>
+    </div>
+</div>

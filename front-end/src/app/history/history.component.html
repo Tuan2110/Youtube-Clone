@@ -1,0 +1,12 @@
+<div fxLayout="column" fxLayoutAlign="center start" fxLayoutGap="20px">
+  <h3>Watch History</h3>
+  <div fxFill fxLayout="row wrap" fxLayoutGap="20px grid" fxLayoutAlign="space-around stretch">
+    <div fxFlex="40%">
+      <div *ngFor="let video of videos">
+          <app-suggest-video [video]="video"></app-suggest-video>
+      </div>
+    </div>
+    <div fxFlex="60%">
+    </div>
+  </div>
+</div>
